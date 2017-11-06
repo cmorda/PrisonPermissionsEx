@@ -1,0 +1,182 @@
+groups:
+  Z:
+    options:
+      rank: '1000'
+      rank-ladder: PRISON
+      default: 'false'
+      prefix: '&7[&fZ&7]'
+    permissions:
+    - essentials.spawn
+    - essentials.warps.z
+    - essentials.balance
+    - essentials.warps.zebraward
+    - essentials.warp.list
+    - essentials.warp
+    - essentials.warp.ZebraWard
+    worlds:
+      world:
+        options:
+          default: 'false'
+  Y:
+    options:
+      rank: '999'
+      rank-ladder: PRISON
+      prefix: '&7[&fY&7]'
+    inheritance:
+    - Z
+    permissions:
+    - essentials.warps.yamward
+    - essentials.warps.y
+    - essentials.warp.y
+    - essentials.warp.list
+    - essentials.warp.yamward
+    - essentials.warp.YamWard
+    worlds:
+      world:
+        inheritance:
+        - Z
+  X:
+    options:
+      rank: '998'
+      rank-ladder: PRISON
+      prefix: '&7[&fX&7]'
+    inheritance:
+    - Y
+    permissions:
+    - essentials.warps.x
+    - essentials.warps.XRayWard
+    - essentials.warp.XRayWard
+  W:
+    options:
+      rank: '997'
+      rank-ladder: PRISON
+      prefix: '&7[&fW&7]'
+    inheritance:
+    - X
+    permissions:
+    - essentials.warps.w
+    - essentials.warps.WhiskeyWard
+    - essentials.warp.WhiskeyWard
+  V:
+    options:
+      rank: '996'
+      rank-ladder: PRISON
+      prefix: '&7[&fV&7]'
+    inheritance:
+    - W
+    permissions:
+    - essentials.warps.V
+    - essentials.warps.VirusWard
+    - essentials.warp.VirusWard
+  U:
+    options:
+      rank: '995'
+      rank-ladder: PRISON
+      prefix: '&7[&fU&7]'
+    inheritance:
+    - V
+    permissions:
+    - essentials.warps.u
+    - essentials.warps.UniformWard
+    - essentials.warp.UniformWard
+  Admin:
+    options:
+      rank: '2'
+      rank-ladder: STAFF
+      prefix: '&0[&2Server&f_&3Manager&0]'
+    permissions:
+    - permissions.*
+  Owner:
+    options:
+      rank: '1'
+      rank-ladder: STAFF
+      prefix: '&0[&4Owner&0]&7'
+    permissions:
+    - permissions.*
+  Guard: {}
+  Architect:
+    options:
+      rank: '3'
+      rank-ladder: STAFF
+      prefix: '&0[&9Architect&0]'
+    permissions:
+    - permissions.*
+schema-version: 1
+users:
+  f95077c4-6e99-4e52-af50-e077a2962e23:
+    permissions:
+    - permissions.*
+    - essentials.warps.YamWard
+    - essentials.warp.list
+    - essentials.warp
+    - essentials.warps.YamWaro
+    options:
+      name: Gez_
+    group:
+    - Admin
+  2e2dfb1d-714b-4e30-9c21-52b4d8acb555:
+    group:
+    - Z
+    - Owner
+    options:
+      name: _Syntax_Error
+    permissions:
+    - permissions.*
+  4121b11b-d823-46dc-9d9b-988f66751247:
+    group:
+    - Y
+    options:
+      name: Wata_Beast
+  f683b8cc-236f-487b-b0c4-cb637b2af9be:
+    options:
+      name: CavemanlyMan
+    group:
+    - U
+  862ead89-2a5e-451f-8425-bc8eca40d555:
+    group:
+    - Y
+    options:
+      name: steakfries723
+  9f3b4338-8a9f-4e47-968b-3d3dcd8b9bb5:
+    group:
+    - U
+    options:
+      name: MaryVi
+  6ac20825-cf66-4312-aa9f-293f3d1f9a8c:
+    group:
+    - X
+    options:
+      name: SuperlinkNL
+  4f88be21-8a4d-476f-a9df-3751a9a225e6:
+    group:
+    - U
+    options:
+      name: RandalOneL
+  8e9f8d25-2967-4f58-9430-971afcd970c9:
+    group:
+    - Y
+    options:
+      name: mldburg
+  309a6262-858e-4c03-a94d-3876bd1ebc30:
+    group:
+    - Y
+    options:
+      name: Freakx8
+  9510fbc6-5094-4726-834c-e839162389b7:
+    group:
+    - U
+    options:
+      name: ARazorsDestiny
+  d2e016fe-05d7-4655-94d1-6d505ef749bd:
+    group:
+    - Y
+    options:
+      name: Rose__Bloom
+  cb7593ed-52a3-46aa-a8e9-fdf354a7d0fe:
+    options:
+      name: Hilo101
+    group:
+    - Y
+  51df1e0c-1b9f-43af-96e4-11284ae7cb6c:
+    options:
+      name: isaac_kern
