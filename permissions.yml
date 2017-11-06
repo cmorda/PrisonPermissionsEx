@@ -3,7 +3,7 @@ groups:
     options:
       rank: '1000'
       rank-ladder: PRISON
-      default: 'false'
+      default: 'true'
       prefix: '&7[&fZ&7]'
     permissions:
     - essentials.spawn
@@ -16,7 +16,7 @@ groups:
     worlds:
       world:
         options:
-          default: 'false'
+          default: 'true'
   Y:
     options:
       rank: '999'
