@@ -1,182 +1,1333 @@
 groups:
-  Z:
+  A:
     options:
-      rank: '1000'
-      rank-ladder: PRISON
       default: 'true'
-      prefix: '&7[&fZ&7]'
-    permissions:
-    - essentials.spawn
-    - essentials.warps.z
-    - essentials.balance
-    - essentials.warps.zebraward
-    - essentials.warp.list
-    - essentials.warp
-    - essentials.warp.ZebraWard
+      prefix: ''
+      rank: '34'
+      rank-ladder: prison
+      suffix: '&7[A]'
     worlds:
       world:
         options:
           default: 'true'
-  Y:
-    options:
-      rank: '999'
-      rank-ladder: PRISON
-      prefix: '&7[&fY&7]'
-    inheritance:
-    - Z
     permissions:
-    - essentials.warps.yamward
-    - essentials.warps.y
-    - essentials.warp.y
+    - essentials.warps.donations
+    - essentials.helpop
+    - mcmmo.skills.archery
+    - shopguiplus.shops.A
+    - essentials.warps.enchant
+    - essentials.kit
+    - essentials.kits.tools
+    - -shopguiplus.shops.Z
+    - -shopguiplus.shops.Y
+    - -shopguiplus.shops.X
+    - -shopguiplus.shops.W
+    - -shopguiplus.shops.V
+    - -shopguiplus.shops.U
+    - -shopguiplus.shops.T
+    - -shopguiplus.shops.S
+    - -shopguiplus.shops.R
+    - -shopguiplus.shops.Q
+    - -shopguiplus.shops.P
+    - -shopguiplus.shops.O
+    - -shopguiplus.shops.N
+    - -shopguiplus.shops.M
+    - -shopguiplus.shops.L
+    - -shopguiplus.shops.K
+    - -shopguiplus.shops.J
+    - -shopguiplus.shops.I
+    - -shopguiplus.shops.H
+    - -shopguiplus.shops.G
+    - -shopguiplus.shops.F
+    - -shopguiplus.shops.E
+    - -shopguiplus.shops.D
+    - -shopguiplus.shops.C
+    - -shopguiplus.shops.B
+    - shopguiplus.shop
+    - essentials.warps.tutorial
+    - pp.tokens.pay
+    - pp.tokens.find
+    - essentials.warps.enchants
+    - essentials.signs.use.warp
+    - essentials.signs.use.enchant
+    - essentials.signs.use.disposal
+    - pp.spring
+    - mcmmo.commands.mobhealth
+    - mcmmo.commands.woodcutting
+    - mcmmo.commands.unarmed
+    - mcmmo.commands.swords
+    - mcmmo.commands.smelting
+    - mcmmo.commands.repair
+    - mcmmo.commands.party.alliance
+    - mcmmo.commands.party.unlock
+    - mcmmo.commands.party.rename
+    - mcmmo.commands.party.quit
+    - mcmmo.commands.party.password
+    - mcmmo.commands.party.lock
+    - mcmmo.commands.party.kick
+    - mcmmo.commands.party.join
+    - mcmmo.commands.party.itemshare
+    - mcmmo.commands.party.invite
+    - mcmmo.commands.party.info
+    - mcmmo.commands.party.help
+    - mcmmo.commands.party.expshare
+    - mcmmo.commands.party.disband
+    - mcmmo.commands.party.create
+    - mcmmo.commands.party.accept
+    - mcmmo.commands.party
+    - mcmmo.commands.mining
+    - mcmmo.commands.mctop.woodcutting
+    - mcmmo.commands.mctop.unarmed
+    - mcmmo.commands.mctop.swords
+    - mcmmo.commands.mctop.smelting
+    - mcmmo.commands.mctop.repair
+    - mcmmo.commands.mctop.mining
+    - mcmmo.commands.mctop.fishing
+    - mcmmo.commands.mctop.axes
+    - mcmmo.commands.mctop
+    - mcmmo.commands.mcstats
+    - mcmmo.commands.mcrank.others.offline
+    - mcmmo.commands.mcrank.others.far
+    - mcmmo.commands.mcrank.others
+    - mcmmo.commands.mcrank
+    - mcmmo.commands.mcmmo.description
+    - mcmmo.commands.mcmmo.help
+    - mcmmo.commands.inspect.offline
+    - mcmmo.commands.inspect.far
+    - mcmmo.commands.inspect
+    - mcmmo.commands.fishing
+    - mcmmo.commands.axes
+    - mcmmo.chat.partychat
+    - mcmmo.ability.bypass.arcanebypass
+    - mcmmo.ability.woodcutting.doubledrops
+    - mcmmo.ability.unarmed.ironarm
+    - mcmmo.ability.unarmed.iromarm
+    - mcmmo.ability.unarmed.beserk
+    - mcmmo.ability.swords.serratedstrikes
+    - mcmmo.ability.swords.bleed
+    - mcmmo.ability.smelting.vanillaxpboost
+    - mcmmo.ability.smelting.fuelefficiency
+    - mcmmo.ability.smelting.secondsmelt
+    - mcmmo.ability.repair.woodrepair
+    - mcmmo.ability.repair.toolrepair
+    - mcmmo.ability.repair.stonerepair
+    - mcmmo.ability.repair.repairmastery
+    - mcmmo.ability.repair.superrepair
+    - mcmmo.ability.repair.leatherrepair
+    - mcmmo.ability.repair.ironrepair
+    - mcmmo.ability.repair.goldrepair
+    - mcmmo.ability.repair.diamondrepair
+    - mcmmo.ability.repair.armorrepair
+    - mcmmo.ability.repair.arcaneforging
+    - mcmmo.ability.mining.superbreaker
+    - mcmmo.ability.mining.doubledrops
+    - mcmmo.ability.mining.blastmining.detonate
+    - mcmmo.ability.mining.blastmining.biggerbombs
+    - mcmmo.ability.mining.blastmining.demolitionsexpertise
+    - mcmmo.ability.fishing.vanillaxpboost
+    - mcmmo.ability.fishing.treasures
+    - mcmmo.ability.fishing.shakemob
+    - mcmmo.ability.fishing.fishermansdiet
+    - mcmmo.ability.axes.skullsplitter
+    - mcmmo.ability.axes.criticalhit
+    - mcmmo.ability.axes.axemastery
+    - mcmmo.ability.axes.greaterimpact
+    - mcmmo.mobhealthdisplay
+    - mcmmo.skills.smelting
+    - mcmmo.skills.woodcutting
+    - mcmmo.skills.unarmed
+    - mcmmo.skills.swords
+    - mcmmo.skills.mining
+    - mcmmo.skills.fishing
+    - mcmmo.skills.axes
+    - tnt.ignite
+    - pp.hand
     - essentials.warp.list
-    - essentials.warp.yamward
-    - essentials.warp.YamWard
-    worlds:
-      world:
-        inheritance:
-        - Z
-  X:
-    options:
-      rank: '998'
-      rank-ladder: PRISON
-      prefix: '&7[&fX&7]'
+    - essentials.rules
+    - essentials.me
+    - essentials.list
+    - essentials.help
+    - essentials.afk.auto
+    - essentials.afk
+    - essentials.seen
+    - essentials.recipe
+    - essentials.ping
+    - essentials.near
+    - essentials.msg
+    - essentials.mail.send
+    - essentials.mail
+    - essentials.balancetop
+    - essentials.balance
+    - ab.warns.own
+    - ab.tempmute.notify
+    - ab.tempban.notify
+    - ab.mute.notify
+    - ab.kick.notify
+    - ab.ipban.notify
+    - essentials.ptime
+    - essentials.balance.others
+    - pp.enchatment.autosmelt
+    - pp.enchatment.tier
+    - pp.enchatment.luck
+    - pp.enchatment.blockexperience
+    - pp.sellall.sign
+    - pp.crates.open.8
+    - pp.crates.open.7
+    - pp.crates.open.6
+    - pp.crates.open.5
+    - pp.crates.open.4
+    - pp.crates.open.3
+    - pp.crates.open.2
+    - pp.crates.open.1
+    - pp.crates.open
+    - pp.crates.find
+    - pp.autoinventory
+    - pp.tokens.balance.other
+    - pp.tokens.balance
+    - pp.tokens
+    - pp.time
+    - pp.statistics.other
+    - pp.statistics
+    - pp.smartdrop
+    - pp.shop
+    - pp.report
+    - pp.prestige
+    - pp.pclearchat
+    - pp.missions.start.5
+    - pp.missions.start.4
+    - pp.missions.start.3
+    - pp.missions.start.2
+    - pp.missions.start.1
+    - pp.missions
+    - pp.minebuddy
+    - pp.info
+    - pp.membermenu.commands
+    - pp.membermenu.information
+    - pp.membermenu.staff
+    - pp.membermenu.missions
+    - pp.membermenu.achievements
+    - pp.membermenu.statistics
+    - pp.membermenu
+    - pp.gift.weekly
+    - pp.gift.monthly
+    - pp.gift.daily
+    - pp.gift
+    - pp.crates.buy.8
+    - pp.crates.buy.7
+    - pp.crates.buy.6
+    - pp.crates.buy.5
+    - pp.crates.buy.4
+    - pp.crates.buy.3
+    - pp.crates.buy.2
+    - pp.crates.buy.1
+    - pp.crates.buy
+    - pp.crates
+    - pp.apply
+    - pp.achievements
+    - pp.rankup
+    - essentials.warp
+    - essentials.warps.Alphaward
+    - essentials.warps.A
+    - essentials.spawn
+  B:
     inheritance:
-    - Y
-    permissions:
-    - essentials.warps.x
-    - essentials.warps.XRayWard
-    - essentials.warp.XRayWard
-  W:
+    - A
     options:
-      rank: '997'
-      rank-ladder: PRISON
-      prefix: '&7[&fW&7]'
-    inheritance:
-    - X
+      prefix: ''
+      rank: '33'
+      rank-ladder: prison
+      suffix: '&7[B]'
     permissions:
-    - essentials.warps.w
-    - essentials.warps.WhiskeyWard
-    - essentials.warp.WhiskeyWard
-  V:
+    - -shopguiplus.shops.A
+    - shopguiplus.shops.B
+    - essentials.warps.BunniiWard
+    - essentials.warps.b
+  C:
+    inheritance:
+    - B
     options:
-      rank: '996'
-      rank-ladder: PRISON
-      prefix: '&7[&fV&7]'
-    inheritance:
-    - W
+      rank: '32'
+      rank-ladder: prison
+      prefix: ''
+      suffix: '&7[C]'
     permissions:
-    - essentials.warps.V
-    - essentials.warps.VirusWard
-    - essentials.warp.VirusWard
+    - -shopguiplus.shops.B
+    - shopguiplus.shops.C
+    - essentials.warps.CavemanlyWard
+    - essentials.warps.c
+  D:
+    inheritance:
+    - C
+    options:
+      rank: '31'
+      rank-ladder: prison
+      prefix: ''
+      suffix: '&7[D]'
+    permissions:
+    - -shopguiplus.shops.C
+    - shopguiplus.shops.D
+    - essentials.warps.dustward
+    - essentials.warps.d
+  E:
+    inheritance:
+    - D
+    options:
+      rank: '30'
+      rank-ladder: prison
+      prefix: ''
+      suffix: '&7[E]'
+    permissions:
+    - -shopguiplus.shops.D
+    - shopguiplus.shops.E
+    - essentials.warps.EpsilonWard
+    - essentials.warps.e
+  F:
+    inheritance:
+    - E
+    options:
+      rank: '29'
+      rank-ladder: prison
+      prefix: ''
+      suffix: '&7[F]'
+    permissions:
+    - -shopguiplus.shops.E
+    - shopguiplus.shops.F
+    - essentials.warps.frostward
+    - essentials.warps.f
+  G:
+    inheritance:
+    - F
+    options:
+      rank: '28'
+      rank-ladder: prison
+      prefix: ''
+      suffix: '&e[G]'
+    permissions:
+    - -shopguiplus.shops.F
+    - shopguiplus.shops.G
+    - essentials.warps.GezWard
+    - essentials.warps.g
+  H:
+    inheritance:
+    - G
+    options:
+      rank: '27'
+      rank-ladder: prison
+      prefix: ''
+      suffix: '&e[H]'
+    permissions:
+    - -shopguiplus.shops.G
+    - shopguiplus.shops.H
+    - essentials.warps.HarmonyWard
+    - essentials.warps.h
+  I:
+    inheritance:
+    - H
+    options:
+      rank: '26'
+      rank-ladder: prison
+      prefix: ''
+      suffix: '&e[I]'
+    permissions:
+    - -shopguiplus.shops.H
+    - shopguiplus.shops.I
+    - essentials.warps.IsaacWard
+    - essentials.warps.i
+  J:
+    inheritance:
+    - I
+    options:
+      rank: '25'
+      rank-ladder: prison
+      prefix: ''
+      suffix: '&e[J]'
+    permissions:
+    - -shopguiplus.shops.I
+    - shopguiplus.shops.J
+    - essentials.warps.JatoWard
+    - essentials.warps.j
+  K:
+    inheritance:
+    - J
+    options:
+      rank: '24'
+      rank-ladder: prison
+      prefix: ''
+      suffix: '&e[K]'
+    permissions:
+    - -shopguiplus.shops.J
+    - shopguiplus.shops.K
+    - essentials.warps.KatsukiWard
+    - essentials.warps.k
+  L:
+    inheritance:
+    - K
+    options:
+      rank: '23'
+      rank-ladder: prison
+      prefix: ''
+      suffix: '&e[L]'
+    permissions:
+    - -shopguiplus.shops.K
+    - shopguiplus.shops.L
+    - essentials.warps.LionheartWard
+    - essentials.warps.l
+  M:
+    inheritance:
+    - L
+    options:
+      rank: '22'
+      rank-ladder: prison
+      prefix: ''
+      suffix: '&9[M]'
+    permissions:
+    - -shopguiplus.shops.L
+    - shopguiplus.shops.M
+    - essentials.warps.MaryWard
+    - essentials.warps.m
+  N:
+    inheritance:
+    - M
+    options:
+      rank: '21'
+      rank-ladder: prison
+      prefix: ''
+      suffix: '&9[N]'
+    permissions:
+    - -shopguiplus.shops.M
+    - shopguiplus.shops.N
+    - essentials.warps.NuclearWard
+    - essentials.warps.n
+  O:
+    inheritance:
+    - N
+    options:
+      rank: '20'
+      rank-ladder: prison
+      prefix: ''
+      suffix: '&9[O]'
+    permissions:
+    - -shopguiplus.shops.N
+    - shopguiplus.shops.O
+    - essentials.warps.o
+    - essentials.warps.OmegaWard
+  P:
+    inheritance:
+    - O
+    options:
+      rank: '19'
+      rank-ladder: prison
+      prefix: ''
+      suffix: '&9[P]'
+    permissions:
+    - -shopguiplus.shops.O
+    - shopguiplus.shops.P
+    - essentials.warps.PieWard
+    - essentials.warps.p
+  Q:
+    inheritance:
+    - P
+    options:
+      rank: '18'
+      rank-ladder: prison
+      prefix: ''
+      suffix: '&9[Q]'
+    permissions:
+    - -shopguiplus.shops.P
+    - shopguiplus.shops.Q
+    - essentials.warps.QuestWard
+    - essentials.warps.q
+  R:
+    inheritance:
+    - Q
+    options:
+      rank: '17'
+      rank-ladder: prison
+      prefix: ''
+      suffix: '&9[R]'
+    permissions:
+    - -shopguiplus.shops.Q
+    - shopguiplus.shops.R
+    - essentials.warps.RocketWard
+    - essentials.warps.r
+  S:
+    inheritance:
+    - R
+    options:
+      rank: '16'
+      rank-ladder: prison
+      prefix: ''
+      suffix: '&a[S]'
+    permissions:
+    - -shopguiplus.shops.R
+    - shopguiplus.shops.S
+    - essentials.warps.SyntaxWard
+    - essentials.warps.s
+  T:
+    inheritance:
+    - S
+    options:
+      rank: '15'
+      rank-ladder: prison
+      prefix: ''
+      suffix: '&a[T]'
+    permissions:
+    - -shopguiplus.shops.S
+    - shopguiplus.shops.T
+    - essentials.warps.TremorWard
+    - essentials.warps.t
   U:
+    inheritance:
+    - T
     options:
-      rank: '995'
-      rank-ladder: PRISON
-      prefix: '&7[&fU&7]'
+      rank: '14'
+      rank-ladder: prison
+      prefix: ''
+      suffix: '&a[U]'
+    permissions:
+    - -shopguiplus.shops.T
+    - shopguiplus.shops.U
+    - essentials.warps.UniformWard
+    - essentials.warps.u
+  V:
+    inheritance:
+    - U
+    options:
+      rank: '13'
+      rank-ladder: prison
+      prefix: ''
+      suffix: '&a[V]'
+    permissions:
+    - -shopguiplus.shops.U
+    - shopguiplus.shops.V
+    - essentials.warps.VirtueWard
+    - essentials.warps.v
+  W:
     inheritance:
     - V
+    options:
+      rank: '12'
+      rank-ladder: prison
+      prefix: ''
+      suffix: '&a[W]'
     permissions:
-    - essentials.warps.u
-    - essentials.warps.UniformWard
-    - essentials.warp.UniformWard
+    - -shopguiplus.shops.V
+    - shopguiplus.shops.W
+    - essentials.warps.WalrusWard
+    - essentials.warps.w
+  X:
+    inheritance:
+    - W
+    options:
+      rank: '11'
+      rank-ladder: prison
+      prefix: ''
+      suffix: '&a[X]'
+    permissions:
+    - -shopguiplus.shops.W
+    - shopguiplus.shops.X
+    - essentials.warps.XrayWard
+    - essentials.warps.x
+  Y:
+    inheritance:
+    - X
+    options:
+      rank: '10'
+      rank-ladder: prison
+      prefix: ''
+      suffix: '&a[Y]'
+    permissions:
+    - -shopguiplus.shops.X
+    - shopguiplus.shops.Y
+    - essentials.warps.YamWard
+    - essentials.warps.y
+  Z:
+    inheritance:
+    - Y
+    options:
+      rank: '9'
+      rank-ladder: prison
+      prefix: ''
+      suffix: '&a[Z]'
+    permissions:
+    - -shopguiplus.shops.Y
+    - shopguiplus.shops.Z
+    - essentials.warps.zetaward
+    - essentials.warps.z
+  Prestige:
+    inheritance:
+    - Z
+    options:
+      rank: '8'
+      rank-ladder: prison
+      prefix: ''
+      suffix: '&f&ko&r&6[Prestige]&f&ko'
+    permissions:
+    - essentials.warps.portal
+    - pp.sellall.Prestige
+    - essentials.warps.mastery
+    - essentials.warps.pres
+    - essentials.warps.prestige
+  Moderator:
+    inheritance:
+    - Vip
+    options:
+      rank: '4'
+      rank-ladder: staff
+      prefix: '&3[Warden]'
+    permissions:
+    - essentials.nick.color
+    - essentials.nick.format
+    - essentials.nick.others
+    - essentials.nick
+    - -vanish.statusupdates
+    - -vanish.see
+    - essentials.warps.*
+    - -vanish.adminalerts
+    - vanish.standard
+    - mcmmo.chat.adminchat
+    - pp.lockchat.bypass
+    - essentials.setwarp
+    - essentials.socialspy
+    - essentials.kill.exempt
+    - essentials.kill
+    - essentials.enderchest.modify
+    - essentials.broadcast
+    - essentials.itemdb
+    - essentials.afk.kickexempt
+    - essentials.time
+    - essentials.time.set
+    - mineresetlite.mine.reset
+    - essentials.tphere
+    - essentials.tp
+    - pp.report.clear
+    - pp.proadcast
+    - pp.lockchat
+    - pp.hand.other
+    - pp.clearchat
+    - pp.milk.bypass
+    - pp.cheese.bypass
+    - pp.chat
+    - pp.ban.bypass
+    - pp.adminmenu.killplayers
+    - pp.adminmenu.warnplayers
+    - pp.adminmenu.banplayers
+    - pp.adminmenu.viewreport
+    - pp.adminmenu.viewwarns
+    - pp.adminmenu.viewops
+    - pp.adminmenu.viewbanned
+    - pp.adminmenu
+    - permissions.user.demote.prison
+    - permissions.user.promote.prison
+    - essentials.feed.others
+    - essentials.near
+    - essentials.feed
+    - essentials.enderchest.others
+    - essentials.enderchest
+    - ab.tempmute.exempt
+    - ab.tempban.exempt
+    - ab.mute.perma
+    - ab.mute.exempt
+    - ab.kick.exempt
+    - ab.history
+    - ab.check.ip
+    - ab.ban.undo
+    - ab.ban.temp
+    - ab.ban.perma
+    - ab.ban.exempt
+    worlds:
+      Vip:
+        inheritance:
+        - Helper
   Admin:
-    options:
-      rank: '2'
-      rank-ladder: STAFF
-      prefix: '&0[&2Server&f_&3Manager&0]'
-    permissions:
-    - permissions.*
-  Owner:
-    options:
-      rank: '1'
-      rank-ladder: STAFF
-      prefix: '&0[&4Owner&0]&7'
-    permissions:
-    - permissions.*
-  Guard: {}
-  Architect:
+    inheritance:
+    - Moderator
     options:
       rank: '3'
-      rank-ladder: STAFF
-      prefix: '&0[&9Architect&0]'
+      rank-ladder: staff
+      prefix: '&b[Manager]'
     permissions:
-    - permissions.*
+    - essentials.helpop.recieve
+    - discordsrv.silentquit
+    - discordsrv.silentjoin
+    - vanish.effects.bats
+    - vanish.*
+    - vanish.vanish
+    - -vanish.preventoutgoingdamage
+    - -vanish.nochat
+    - -vanish.nointeract
+    - pp.sellall.sign.place
+    - pp.language
+    - pp.enchantment.sign
+    - pp.tokens.setbalance
+    - pp.tokens.setbalance.all
+    - pp.tokens.remove
+    - pp.tokens.remove.all
+    - pp.tokens.give.all
+    - pp.tokens.give
+    - pp.tokens.reset
+    - pp.tokens.reset.all
+    - pp.sethealth
+    - pp.send
+    - pp.payday
+    - pp.message.bypass
+    - pp.command.bypass
+    - pp.chat.bypass
+    - pp.drophand.bypass
+    - pp.make
+    - pp.info.address.other
+    - pp.info.location.other
+    - pp.info
+    - pp.gift
+    - pp.fake
+    - pp.dropparty
+    - pp.damage
+    - pp.crates.give
+    - pp.crates
+    - pp.bind
+    - pp.alert
+    - pp.adminmenu
+    - permissions.user.demote.donors
+    - permissions.user.demote.staff
+    - permissions.user.promote.donors
+    - permissions.user.promote.staff
+    - permissions.user.promote.prison
+    - permissions.user.demote.prison
+    - pp.blockedphrases.bypass
+    - pp.antiswear.bypass
+    - pp.admin
+  Coowner:
+    inheritance:
+    - Admin
+    options:
+      rank: '2'
+      rank-ladder: staff
+      prefix: '&7[Co-Mayor]'
+  Owner:
+    inheritance:
+    - Coowner
+    options:
+      rank: '1'
+      rank-ladder: staff
+      prefix: '&4[Mayor]'
+    permissions: []
+  Prestige-I:
+    permissions:
+    - betterenderchest.slots.upgrade1
+    inheritance:
+    - No-Prestige
+    options:
+      prefix: '&0[&6&lI&0]&r'
+  Prestige-II:
+    inheritance:
+    - Prestige-I
+    permissions:
+    - shopguiplus.pricemodifiers.prestige2
+    options:
+      prefix: '&0[&6&lII&0]&r'
+  Prestige-III:
+    inheritance:
+    - Prestige-II
+    permissions:
+    - mcmmo.perks.xp.10percentboost
+    options:
+      prefix: '&0[&6&lIII&0]&r'
+  Prestige-IV:
+    inheritance:
+    - Prestige-III
+    permissions:
+    - shopguiplus.pricemodifiers.prestige4
+    options:
+      prefix: '&0[&6&lIV&0]&r'
+  Prestige-V:
+    inheritance:
+    - Prestige-IV
+    permissions: []
+    options:
+      prefix: '&0[&6&lV&0]&r'
+  Prestige-VI:
+    inheritance:
+    - Prestige-V
+    permissions:
+    - shopguiplus.pricemodifiers.prestige6
+    options:
+      prefix: '&0[&6&lVI&0]&r'
+  Prestige-VII:
+    inheritance:
+    - Prestige-VI
+    permissions:
+    - mcmmo.perks.lucky.mining
+    options:
+      prefix: '&0[&6&lVII&0]&r'
+  Prestige-VIII:
+    inheritance:
+    - Prestige-VII
+    permissions:
+    - shopguiplus.pricemodifiers.prestige8
+    options:
+      prefix: '&0[&6&lVIII&0]&r'
+  Prestige-IX:
+    inheritance:
+    - Prestige-VIII
+    permissions:
+    - mcmmo.perks.cooldowns.quartered
+    options:
+      prefix: '&0[&6&lIX&0]&r'
+  Prestige-X:
+    inheritance:
+    - Prestige-IX
+    permissions:
+    - shopguiplus.pricemodifiers.prestige10
+    options:
+      prefix: '&0[&6&lX&0]&r'
+  Prestige-XI:
+    inheritance:
+    - Prestige-X
+    permissions:
+    - mcmmo.perks.activationtime.fourseconds
+    options:
+      prefix: '&0[&6&lXI&0]&r'
+  Prestige-XII:
+    inheritance:
+    - Prestige-XI
+    permissions:
+    - shopguiplus.pricemodifiers.prestige12
+    options:
+      prefix: '&0[&6&lXII&0]&r'
+  Prestige-XIII:
+    inheritance:
+    - Prestige-XII
+    permissions: []
+    options:
+      prefix: '&0[&6&lXIII&0]&r'
+  Prestige-XIV:
+    inheritance:
+    - Prestige-XIII
+    permissions:
+    - shopguiplus.pricemodifiers.prestige14
+    - mcmmo.perks.xp.double
+    options:
+      prefix: '&0[&6&lXIV&0]&r'
+  Prestige-XV:
+    inheritance:
+    - Prestige-XIV
+    permissions:
+    - betterenderchest.slots.upgrade2
+    options:
+      prefix: '&0[&6&lXV&0]&r'
+  Prestige-XVI:
+    inheritance:
+    - Prestige-XV
+    permissions:
+    - shopguiplus.pricemodifiers.prestige16
+    options:
+      prefix: '&0[&6&lXVI&0]&r'
+  Prestige-XVII:
+    inheritance:
+    - Prestige-XVI
+    permissions:
+    - mcmmo.perks.cooldowns.thirded
+    options:
+      prefix: '&0[&6&lXVII&0]&r'
+  Prestige-XVIII:
+    inheritance:
+    - Prestige-XVII
+    permissions:
+    - shopguiplus.pricemodifiers.prestige18
+    options:
+      prefix: '&0[&6&lXVIII&0]&r'
+  Prestige-XIX:
+    inheritance:
+    - Prestige-XVIII
+    permissions:
+    - mcmmo.perks.lucky.woodcutting
+    options:
+      prefix: '&0[&6&lXIX&0]&r'
+  Prestige-XX:
+    inheritance:
+    - Prestige-XIX
+    permissions:
+    - shopguiplus.pricemodifiers.prestige20
+    options:
+      prefix: '&0[&6&lXX&0]&r'
+  Prestige-XXI:
+    inheritance:
+    - Prestige-XX
+    permissions: []
+    options:
+      prefix: '&0[&6&lXXI&0]&r'
+  Prestige-XXII:
+    inheritance:
+    - Prestige-XXI
+    permissions:
+    - shopguiplus.pricemodifiers.prestige22
+    options:
+      prefix: '&0[&6&lXXII&0]&r'
+  Prestige-XXIII:
+    inheritance:
+    - Prestige-XXII
+    permissions:
+    - mcmmo.perks.50percentboost
+    options:
+      prefix: '&0[&6&lXXIII&0]&r'
+  Prestige-XXIV:
+    inheritance:
+    - Prestige-XXIII
+    permissions:
+    - shopguiplus.pricemodifiers.prestige24
+    options:
+      prefix: '&0[&6&lXXIV&0]&r'
+  Prestige-XXV:
+    inheritance:
+    - Prestige-XXIV
+    permissions:
+    - mcmmo.perks.activationtime.eightseconds
+    options:
+      prefix: '&0[&6&lXXV&0]&r'
+  Prestige-XXVI:
+    inheritance:
+    - Prestige-XXV
+    permissions:
+    - shopguiplus.pricemodifiers.prestige26
+    options:
+      prefix: '&0[&6&lXXVI&0]&r'
+  Prestige-XXVII:
+    inheritance:
+    - Prestige-XXVI
+    permissions:
+    - mcmmo.perks.xp.double
+    options:
+      prefix: '&0[&6&lXXVII&0]&r'
+  Prestige-XXVIII:
+    inheritance:
+    - Prestige-XXVII
+    permissions:
+    - shopguiplus.pricemodifiers.prestige28
+    options:
+      prefix: '&0[&6&lXXVIII&0]&r'
+  Prestige-XXIX:
+    inheritance:
+    - Prestige-XXVIII
+    options:
+      prefix: '&0[&6&lXXIX&0]&r'
+  Prestige-XXX:
+    inheritance:
+    - Prestige-XXIX
+    permissions:
+    - shopguiplus.pricemodifiers.prestige30
+    options:
+      prefix: '&0[&6&lXXX&0]&r'
+  Prestige-XXXI:
+    inheritance:
+    - Prestige-XXX
+    permissions:
+    - betterenderchest.slots.upgrade3
+    - mcmmo.perks.xp.double
+    options:
+      prefix: '&0[&6&lXXXI&0]&r'
+  Prestige-XXXII:
+    inheritance:
+    - Prestige-XXXI
+    permissions:
+    - shopguiplus.pricemodifiers.prestige32
+    options:
+      prefix: '&0[&6&lXXXII&0]&r'
+  Prestige-XXXIII:
+    inheritance:
+    - Prestige-XXXII
+    permissions:
+    - mcmmo.perks.cooldowns.halved
+    options:
+      prefix: '&0[&6&lXXXIII&0]&r'
+  Prestige-XXXIV:
+    inheritance:
+    - Prestige-XXXIII
+    permissions:
+    - shopguiplus.pricemodifiers.prestige34
+    options:
+      prefix: '&0[&6&lXXXIV&0]&r'
+  Prestige-XXXV:
+    inheritance:
+    - Prestige-XXXIV
+    permissions:
+    - mcmmo.perks.xp.150percentboost
+    options:
+      prefix: '&0[&6&lXXXV&0]&r'
+  Prestige-XXXVI:
+    inheritance:
+    - Prestige-XXXV
+    permissions:
+    - shopguiplus.pricemodifiers.prestige36
+    options:
+      prefix: '&0[&6&lXXXVI&0]&r'
+  Prestige-XXXVII:
+    inheritance:
+    - Prestige-XXXVI
+    permissions:
+    - mcmmo.perks.lucky.swords
+    options:
+      prefix: '&0[&6&lXXXVII&0]&r'
+  Prestige-XXXVIII:
+    inheritance:
+    - Prestige-XXXVII
+    permissions:
+    - shopguiplus.pricemodifiers.prestige38
+    options:
+      prefix: '&0[&6&lXXXVIII&0]&r'
+  Prestige-XXXIX:
+    inheritance:
+    - Prestige-XXXVIII
+    permissions:
+    - mcmmo.perks.activationtime.twelveseconds
+    options:
+      prefix: '&0[&6&lXXXIX&0]&r'
+  Prestige-XL:
+    inheritance:
+    - Prestige-XXXIX
+    permissions:
+    - shopguiplus.pricemodifiers.prestige40
+    options:
+      prefix: '&0[&6&lXL&0]&r'
+  Prestige-XLI:
+    inheritance:
+    - Prestige-XL
+    permissions:
+    - mcmmo.perks.lucky.axes
+    options:
+      prefix: '&0[&6&lXLI&0]&r'
+  Prestige-XLII:
+    inheritance:
+    - Prestige-XLI
+    permissions:
+    - shopguiplus.pricemodifiers.prestige42
+    options:
+      prefix: '&0[&6&lXLII&0]&r'
+  Prestige-XLIII:
+    inheritance:
+    - Prestige-XLII
+    permissions:
+    - mcmmo.perks.xp.triple
+    options:
+      prefix: '&0[&6&lXLIII&0]&r'
+  Prestige-XLIV:
+    inheritance:
+    - Prestige-XLIII
+    permissions:
+    - shopguiplus.pricemodifiers.prestige44
+    options:
+      prefix: '&0[&6&lXLIV&0]&r'
+  Prestige-XLV:
+    inheritance:
+    - Prestige-XLIV
+    permissions:
+    - mcmmo.perks.lucky.fishing
+    options:
+      prefix: '&0[&6&lXLV&0]&r'
+  Prestige-XLVI:
+    inheritance:
+    - Prestige-XLV
+    permissions:
+    - shopguiplus.pricemodifiers.prestige46
+    options:
+      prefix: '&0[&6&lXLVI&0]&r'
+  Prestige-XLVII:
+    inheritance:
+    - Prestige-XLVI
+    permissions:
+    - mcmmo.perks.lucky.unarmed
+    options:
+      prefix: '&0[&6&lXLVII&0]&r'
+  Prestige-XLVIII:
+    inheritance:
+    - Prestige-XLVII
+    permissions:
+    - shopguiplus.pricemodifiers.prestige48
+    options:
+      prefix: '&0[&6&lXLVIII&0]&r'
+  Prestige-XLIX:
+    inheritance:
+    - Prestige-XLVIII
+    permissions:
+    - pp.minebuddy
+    options:
+      prefix: '&0[&6&lXLIX&0]&r'
+  Prestige-L:
+    inheritance:
+    - Prestige-XLIX
+    permissions:
+    - mcmmo.perks.xp.quadruple
+    options:
+      prefix: '&0[&6&lL&0]&r'
+  No-Prestige:
+    permissions:
+    - -shopguiplus.pricemodifiers.prestige101
+    - -shopguiplus.pricemodifiers.prestige100
+    - -shopguiplus.pricemodifiers.prestige98
+    - -shopguiplus.pricemodifiers.prestige96
+    - -shopguiplus.pricemodifiers.prestige94
+    - -shopguiplus.pricemodifiers.prestige92
+    - -shopguiplus.pricemodifiers.prestige90
+    - -shopguiplus.pricemodifiers.prestige88
+    - -shopguiplus.pricemodifiers.prestige86
+    - -shopguiplus.pricemodifiers.prestige84
+    - -shopguiplus.pricemodifiers.prestige82
+    - -shopguiplus.pricemodifiers.prestige80
+    - -shopguiplus.pricemodifiers.prestige78
+    - -shopguiplus.pricemodifiers.prestige76
+    - -shopguiplus.pricemodifiers.prestige74
+    - -shopguiplus.pricemodifiers.prestige72
+    - -shopguiplus.pricemodifiers.prestige70
+    - -shopguiplus.pricemodifiers.prestige68
+    - -shopguiplus.pricemodifiers.prestige66
+    - -shopguiplus.pricemodifiers.prestige64
+    - -shopguiplus.pricemodifiers.prestige62
+    - -shopguiplus.pricemodifiers.prestige60
+    - -shopguiplus.pricemodifiers.prestige58
+    - -shopguiplus.pricemodifiers.prestige56
+    - -shopguiplus.pricemodifiers.prestige54
+    - -shopguiplus.pricemodifiers.prestige52
+    - -shopguiplus.pricemodifiers.prestige48
+    - -shopguiplus.pricemodifiers.prestige46
+    - -shopguiplus.pricemodifiers.prestige44
+    - -shopguiplus.pricemodifiers.prestige42
+    - -shopguiplus.pricemodifiers.prestige40
+    - -shopguiplus.pricemodifiers.prestige38
+    - -shopguiplus.pricemodifiers.prestige36
+    - -shopguiplus.pricemodifiers.prestige34
+    - -shopguiplus.pricemodifiers.prestige32
+    - -shopguiplus.pricemodifiers.prestige30
+    - -shopguiplus.pricemodifiers.prestige28
+    - -shopguiplus.pricemodifiers.prestige26
+    - -shopguiplus.pricemodifiers.prestige24
+    - -shopguiplus.pricemodifiers.prestige22
+    - -shopguiplus.pricemodifiers.prestige20
+    - -shopguiplus.pricemodifiers.prestige18
+    - -shopguiplus.pricemodifiers.prestige16
+    - -shopguiplus.pricemodifiers.prestige14
+    - -shopguiplus.pricemodifiers.prestige12
+    - -shopguiplus.pricemodifiers.prestige10
+    - -shopguiplus.pricemodifiers.prestige8
+    - -shopguiplus.pricemodifiers.prestige6
+    - -shopguiplus.pricemodifiers.prestige4
+    - -shopguiplus.pricemodifiers.prestige2
+    options:
+      default: 'true'
+    worlds:
+      '1':
+        options:
+          default: 'false'
+      world:
+        options:
+          default: 'false'
+      'true':
+        options:
+          default: 'false'
+  helper:
+    permissions:
+    - essentials.nick
+    - essentials.helpop.recieve
+    - mineresetlite.mine.info
+    - pp.warn.bypass
+    - pp.warn
+    - pp.tokens.pay.all
+    - pp.report.view
+    - pp.blockedphrases.bypass
+    - pp.antiadvertise.bypass
+    - pp.antispam.bypass
+    - pp.kill.bypass
+    - pp.antispambypass
+    - pp.antiadvertisebypass
+    - essentials.realname
+    - ab.check
+    - essentials.kick
+    - essentials.nick.color
+    - essentials.chat.ignoreexempt
+    - essentials.mute.offline
+    - ab.kick.use
+    - ab.warns.other
+    - ab.warn.undo
+    - ab.warn.temp
+    - ab.warn.perma
+    - ab.mute.undo
+    - ab.mute.temp
+    - ab.ipban.exempt
+    - ab.banlist
+    - essentials.fly.safelogin
+    - essentials.fly
+    - pp.lockchat.bypass
+    options:
+      rank: '5'
+      rank-ladder: staff
+      prefix: '&d[Guard]'
+    inheritance: []
+  Donor:
+    inheritance: []
+    options:
+      rank: '6'
+      rank-ladder: donors
+      prefix: '&e&o[DONOR]'
+  Vip:
+    inheritance: []
+    permissions:
+    - shopguiplus.shops.Vip
+    - betterenderchest.user
+    - betterenderchest.command.openinv.self
+    - shopguiplus.shops.VIP
+    - pp.premiummenu
+    - pp.premiummenu.commands
+    - pp.premiummenu.rewards
+    - pp.premiummenu.onlineplayers
+    - pp.premiummenu.tokenbalances
+    - pp.premiummenu.chat
+    - pp.milk
+    - pp.cheese
+    - essentials.workbench
+    - essentials.warps.vipward
+    - essentials.warps.vip
+    - pp.spring.cooldown.bypass
+    - pp.spring.limit.bypass
+    - pp.chat
+    - essentials.speed
+    - essentials.speed.fly
+    - essentials.speed.walk
+    - essentials.kits.color
+    - essentials.fly.safelogin
+    - essentials.fly
+    options:
+      rank: '7'
+      rank-ladder: donors
+      prefix: '&0[&aVIP&0]&a'
 schema-version: 1
 users:
-  f95077c4-6e99-4e52-af50-e077a2962e23:
-    permissions:
-    - permissions.*
-    - essentials.warps.YamWard
-    - essentials.warp.list
-    - essentials.warp
-    - essentials.warps.YamWaro
-    options:
-      name: Gez_
-    group:
-    - Admin
   2e2dfb1d-714b-4e30-9c21-52b4d8acb555:
     group:
-    - Z
+    - U
+    - No-Prestige
     - Owner
     options:
       name: _Syntax_Error
+      prefix: '&4[Mayor]'
     permissions:
-    - permissions.*
-  4121b11b-d823-46dc-9d9b-988f66751247:
-    group:
-    - Y
-    options:
-      name: Wata_Beast
+    - -vanish.effects.explode
+    - -essentials.effects.lightning
+    - vanish.effects.smoke
+    - vanish.effects.bats
+    - vanish.effects.flames
+    - vanish.reload
+    - vanish.spout.status
+    - vanish.permtest.all
+    - vanish.hooks.essentials.hide
+    - vanish.toggle.all
+    - vanish.silentquit
+    - vanish.silentjoin
+    - vanish.standard
+    - -vanish.effects.lightning
   f683b8cc-236f-487b-b0c4-cb637b2af9be:
     options:
       name: CavemanlyMan
+      prefix: '&b[Manager]&e&o[DONOR]&b'
     group:
-    - U
-  862ead89-2a5e-451f-8425-bc8eca40d555:
+    - S
+    - Prestige-I
+    - Admin
+    - Donor
+    permissions:
+    - -discordsrv.silentjoin
+  zdok:
     group:
-    - Y
+    - A
+    - Moderator
+  dustehhh:
+    group:
+    - A
+    - Moderator
+  lonelybazuka:
+    group:
+    - Moderator
+  _chris:
+    group:
+    - Moderator
+  ladykaviir:
+    group:
+    - Coowner
+  isaac_kern:
+    group:
+    - A
+    - helper
+  af9db5e2-2c5a-4f26-8ac3-b59e15d14faa:
+    group:
+    - A
+    - Prestige-I
+    - Moderator
     options:
-      name: steakfries723
-  9f3b4338-8a9f-4e47-968b-3d3dcd8b9bb5:
+      name: o7_Frost
+  mromegabeast:
     group:
-    - U
+    - A
+    - Vip
+    - helper
+  kevin3569:
+    group:
+    - A
+    - Vip
+  katsuki_black:
+    group:
+    - Moderator
+    - A
+  1f01efb9-dae4-4336-b4ec-b03db76d67b8:
+    group:
+    - J
+    - Vip
     options:
-      name: MaryVi
+      name: jay_boof
+  920cc811-8b70-4f04-9e6a-b532963e41d2:
+    options:
+      name: zoethecat
+    group:
+    - T
+  a98b37c9-da9b-43d8-93cb-d9a4d92f0ec3:
+    options:
+      name: rockmonkeyking
+    group:
+    - S
+  97a346a5-f06d-4e48-adeb-33ba2c47fc3b:
+    options:
+      name: hukoro596
+    group:
+    - C
+  ed542e0f-ad24-433b-8446-2cb85f98a535:
+    options:
+      name: Deverick
+    group:
+    - S
+  0c13d7b9-e078-43e8-8504-2e172edc05c9:
+    options:
+      name: Sorbon
+    group:
+    - H
   6ac20825-cf66-4312-aa9f-293f3d1f9a8c:
     group:
-    - X
+    - D
+    - Admin
     options:
       name: SuperlinkNL
-  4f88be21-8a4d-476f-a9df-3751a9a225e6:
+  65e5a7a7-b6c7-400f-a194-e4d47a636cda:
+    options:
+      name: Dee132
     group:
-    - U
+    - C
+  f77b880a-056e-4bf2-9153-0d8044a2b5ef:
     options:
-      name: RandalOneL
-  8e9f8d25-2967-4f58-9430-971afcd970c9:
+      name: Haariis
     group:
-    - Y
+    - B
+  b79321f0-8499-411b-b5e2-027bd1068128:
     options:
-      name: mldburg
-  309a6262-858e-4c03-a94d-3876bd1ebc30:
+      name: HarleyQuinnFTW47
     group:
-    - Y
+    - C
+  2207229b-6680-4a94-a078-b6cce7379df6:
     options:
-      name: Freakx8
-  9510fbc6-5094-4726-834c-e839162389b7:
+      name: EmoFruits
     group:
-    - U
-    options:
-      name: ARazorsDestiny
-  d2e016fe-05d7-4655-94d1-6d505ef749bd:
-    group:
-    - Y
-    options:
-      name: Rose__Bloom
-  cb7593ed-52a3-46aa-a8e9-fdf354a7d0fe:
-    options:
-      name: Hilo101
-    group:
-    - Y
-  51df1e0c-1b9f-43af-96e4-11284ae7cb6c:
-    options:
-      name: isaac_kern
+    - A
